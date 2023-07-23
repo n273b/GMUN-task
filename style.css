@@ -1,0 +1,187 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f2d;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  } */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f2d;
+  }
+  
+  header {
+    background-color: #00151e; /*#000a0f, #001f2d */
+    color: #fff;
+    padding-top: 0 1rem;
+    position: fixed;
+    width: 100%;
+  }
+  .container h1{
+    font-family: 'Inconsolata', monospace;
+    color: #e1d27d;
+  }
+  #gmun_logo{
+    height: 80px;
+    width: 80px;
+    padding-left: 40px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  nav{
+    float: right;
+    justify-content: flex-end;
+    z-index: 1000;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #e4d05f;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  #home{
+    display: flex;
+    padding-top: 70px;
+  }
+  .left{
+    padding: 36px;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .right h1{
+    color: #64808d;
+  }
+  .right{
+    float: right;
+    flex: 1;
+    padding: 20px;
+  }
+  .right p{
+    font-size: 14px;
+    color: #706f6f;
+  }
+  .image{
+    /* width: 180%;
+    height: 120%; */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main h1{
+    font-family: 'Dancing Script', cursive;
+    color: #64808d;
+    padding: 20px;
+    font-size: 60px;
+    flex-grow: 1;
+  }
+  .committee-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .committee {
+    width: 250px;
+    margin: 1rem;
+    background-color: #64808d;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    /* box-shadow: 0 4px 8px rgb(192, 223, 234); */
+    text-align: center;
+  }
+  
+  .committee img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .committee h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .committee p {
+    margin-top: 1rem;
+  }
+  
+  footer {
+    background-color: #00151e;
+    color: #706f6f;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+/* Style for social media icons */
+.social-icons {
+  margin-bottom: 10px;
+}
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Style for contact information */
+.contact-section {
+  margin-bottom: 10px;
+}
+.contact-section p {
+  margin: 0;
+}
